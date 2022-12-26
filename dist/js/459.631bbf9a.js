@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmovie_quiz"]=self["webpackChunkmovie_quiz"]||[]).push([[459],{4459:function(n,u,t){t.r(u),t.d(u,{default:function(){return s}});var e=t(3396);const r=(0,e._)("h1",null,"MOVIE QUIZ",-1);function l(n,u){const t=(0,e.up)("router-link");return(0,e.wg)(),(0,e.iD)(e.HY,null,[r,(0,e._)("button",null,[(0,e.Wm)(t,{to:"/solveMain"},{default:(0,e.w5)((()=>[(0,e.Uk)("START")])),_:1})])],64)}var o=t(89);const i={},c=(0,o.Z)(i,[["render",l]]);var s=c}}]);
+//# sourceMappingURL=459.631bbf9a.js.map

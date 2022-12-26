@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+#/dist github 페이지로 호스팅할꺼임
 
 
 # local env files
