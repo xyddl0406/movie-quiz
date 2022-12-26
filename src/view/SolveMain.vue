@@ -55,12 +55,10 @@ interface NaverMovie {
 
 const naverMovie = ref({} as NaverMovie);
 
-const xNaverClientId = "X7pi8UDeTPYx5Vrpl69z";
-const xNaverClientSecret = "9wwf2h7xxI";
 fetch("/v1/search/movie.json?query=리틀 포레스트&country=KR", {
   headers: {
-    "X-Naver-Client-Id": xNaverClientId,
-    "X-Naver-Client-Secret": xNaverClientSecret,
+    "X-Naver-Client-Id": process.env.VUE_APP_X_NAVER_CLIENT_ID,
+    "X-Naver-Client-Secret": process.env.VUE_APP_X_NAVER_CLIENT_SECRET,
   },
 })
   .then((response) => response.json())
